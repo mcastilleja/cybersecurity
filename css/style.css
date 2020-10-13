@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.purple {
+    color: #522695;
+}
+
+.white {
+    color: #FFF;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+button {
+    background: linear-gradient(to bottom, #9622bb, #e833b6);
+    border: 1px solid #ff00ff;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+button a {
+    display: block;
+    padding: 10px 30px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+/* INICIA CABECERA */
+
+header {
+    background-color: #FFF;
+    height: 80px;
+    position: relative;
+}
+
+header .main-logo,
+header nav.menu,
+header .search,
+header nav.menu ul li,
+span.section-search,
+.cols-2 span.cols-2-image,
+.cols-2 .text-msecurity,
+.instagram,
+.facebook,
+.twitter,
+.whatsapp {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cols-2,
+.cols-3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    text-align: center;
+}
+
+.cols-2 {
+    width: 50%;
+}
+
+.cols-3 {
+    width: 33.33%;
+}
+
+.main-logo {
+    padding: 10px 50px;
+}
+
+.main-logo span.mlogo {
+    display: block;
+    background-image: url(../media/logo-main.png);
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 60px;
+}
+
+header nav.menu {
+    padding: 0 140px;
+    font-size: 12px;
+}
+
+header nav.menu ul li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.search {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+.s-icon {
+    background-image: url(../media/lupa.png);
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 16px;
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
+}
+
+span.section-search input#search-web {
+    border: none;
+    border-bottom: 1px solid #BBB;
+    width: 200px;
+    padding: 7px;
+    color: #BBB;
+    font-size: 11px;
+}
+
+
+/* INICIA CUERPO */
+
+.index-container,
+.end-container {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/* PRIMER CONTENEDOR */
+
+.index-container {
+    background-image: url(../media/banner-main.jpg);
+}
+
+.main-text {
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+h1.title {
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+span.no-bold {
+    font-weight: lighter;
+}
+
+.text-intro {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+/* SEGUNDO CONTENEDOR */
+
+.blank-container {
+    padding: 90px 30px;
+}
+
+h2.subtitle,
+h1.middle {
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+}
+
+h2.subtitle {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+span.cols-2-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 23px;
+}
+
+.anonimato {
+    background-image: url(../media/anonimato.png);
+}
+
+.encriptacion {
+    background-image: url(../media/encriptacion.png);
+}
+
+.contrasena {
+    background-image: url(../media/contrasena.png);
+}
+
+.informacion {
+    background-image: url(../media/informacion.png);
+}
+
+.cols-2 .text-msecurity {
+    width: 70%;
+}
+
+.spacer {
+    padding: 30px;
+}
+
+span.title-text {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.text-msecurity {
+    font-size: 12px;
+    text-align: justify;
+}
+
+
+/* TERCER CONTENEDOR */
+
+.media-purple {
+    width: 100%;
+    height: 662px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-cols-3 {
+    padding: 30px;
+    text-align: left;
+    position: absolute;
+    top: 310px;
+}
+
+.vpn {
+    background-image: url(../media/vpn.jpg);
+}
+
+.password {
+    background-image: url(../media/password.jpg);
+}
+
+.antivirus {
+    background-image: url(../media/antivirus.jpg);
+}
+
+h2.bannertitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+span.text {
+    font-size: 12px;
+    display: inherit;
+    line-height: 15px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+
+/* CUARTO CONTENEDOR */
+
+section#denuncia .cols-3 {
+    vertical-align: middle;
+}
+
+.right span.title-text {
+    text-align: right;
+}
+
+.media-victim {
+    width: 300px;
+    height: 435px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url(../media/victimario.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+/* CONTENEDOR FINAL */
+
+.end-container {
+    background-image: url(../media//denuncia.png);
+}
+
+h1.max-size {
+    font-size: 90px;
+}
+
+h2.max-subtitle {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.main-text button {
+    margin: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    position: relative;
+}
+
+.msocial {
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background-image: url(../media/instagram.png);
+}
+
+.facebook {
+    background-image: url(../media/facebook.png);
+}
+
+.twitter {
+    background-image: url(../media/twitter.png);
+}
+
+.whatsapp {
+    background-image: url(../media/whatsapp.png);
+}
+
+.copyright {
+    font-size: 10px;
+    margin-top: 12px;
+    color: #adadad;
+}
+
+.right .logo-end {
+    position: absolute;
+    right: 50px;
+    top: 36px;
+}
+
+.logo-end {
+    display: block;
+    background-image: url(../media/logo-end.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 47px;
+}
